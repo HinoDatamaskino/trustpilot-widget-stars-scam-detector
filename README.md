@@ -12,7 +12,7 @@ Some scammer domains that are working to test this detector (**please don't buy 
 - www hear com
 - claritycheck com /search/phone/0000/payment
 
-(replace empty spaces with dots to make the link work)
+(replace spaces with dots to make the link work)
 
 Maybe I'm making this a browser extension sometime.
 
