@@ -1,7 +1,7 @@
 # Trustpilot widget stars scam detector
 
 This tiny css file can be imported into some browser extension like Stylus or similar and highlights any Trustpilot widget that is only showing a specific star counter.
-Some shady companies are doing this to hide the fact that they are scammers. They are only showing the better star ratings, like 3, 4 or even only just 5 star ratings.
+Some shady companies are doing this to hide the fact that they are scammers. They are only showing the better star ratings, like 3, 4 or even only just 5 star ratings and hide the negative ones.
 
 In order to make the scam visible I created this tiny tool for everyone to detect the scam and prevent any money loss because of these scams.
 
