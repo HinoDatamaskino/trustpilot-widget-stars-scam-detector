@@ -1,0 +1,54 @@
+iframe[src*="widget.trustpilot.com/trustboxes"][src*="stars="]
+{
+    /*background:red;*/
+    /*filter:blur(4px);
+    pointer-events:none;*/
+    /*animation: 1.2s red ease-in-out infinite normal;*/
+}
+
+/*iframe[src*="widget.trustpilot.com/trustboxes"][src*="stars="]:after
+{
+    content: attr(src);
+}*/
+
+.trustpilot-widget[data-stars]:not([data-stars="1,2,3,4,5"]), .js-trustpilot-widget[data-stars]:not([data-stars="1,2,3,4,5"])
+{
+	/*background:red;*/
+    overflow:visible;
+    text-align:center;
+    animation: 1.2s trustpilod-warn-anim-red ease-in-out infinite normal;
+    padding-bottom:20px;
+    outline: 3px solid;
+}
+
+*:has(.trustpilot-widget[data-stars]), *:has(.js-trustpilot-widget[data-stars])
+{
+    overflow:visible;
+    height:auto;
+}
+
+.trustpilot-widget[data-stars]:not([data-stars="1,2,3,4,5"]):after, .js-trustpilot-widget[data-stars]:not([data-stars="1,2,3,4,5"]):after
+{
+	/*background:red;*/
+    content: "This Trustpilot Widget only shows these stars: '" attr(data-stars) "' SO BE WARNED!";
+    color: #fff;
+    font-size: 20pt;
+    font-weight:bold;
+}
+
+iframe[src*="widget.trustpilot.com/trustboxes"][src*="stars="]:before
+{
+    /*content: attr(src);
+    color: #fff;
+    font-size: 20pt;
+    top: 0px;
+    left: 0px;*/
+    
+}
+
+@keyframes trustpilod-warn-anim-red
+{
+    0% {background: #ffb17f; box-shadow: 0px 0px 20px #ffb17f; outline-offset: 6px; outline-color: #ffb17f;}
+    50% {background: #ff7f7f; box-shadow: 0px 0px 40px #ff7f7f; outline-offset: 24px; outline-color: #ff7f7f;}
+    100% {background: #ffb17f; box-shadow: 0px 0px 20px #ffb17f; outline-offset: 6px; outline-color: #ffb17f;}
+}
