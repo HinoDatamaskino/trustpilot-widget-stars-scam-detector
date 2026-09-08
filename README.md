@@ -6,10 +6,12 @@ Some shady companies are doing this to hide the fact that they are scammers. The
 In order to make the scam visible I created this tiny tool for everyone to detect the scam and prevent any money loss because of these scams.
 
 
-Some scammer domains that are working to test this detector (**please don't buy anything from there, it's only a scam!!!**): 
-- https://www.audibene.ch
-- https://www.audibene.de
-- https://www.hear.com
-- https://claritycheck.com/search/phone/0000/payment
+Some scammer domains that are working to test this detector (**please don't buy anything from these sites, it's only a scam!!!**): 
+- www audibene ch
+- www audibene de
+- www hear com
+- claritycheck com /search/phone/0000/payment
 
 Maybe I'm making this a browser extension sometime.
+
+This is Open Source Software
