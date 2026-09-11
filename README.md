@@ -5,6 +5,7 @@ Some shady companies are doing this to hide the fact that they are scammers. The
 
 In order to make the scam visible I created this tiny tool for everyone to detect the scam and prevent any money loss because of these scams.
 
+The 'Trust Pilot' widget has to be embedded with an iframe element and has to point to the site widget.trustpilot.com for the addon to work. Not all fake reviews are using this, so it cannot work for these.
 
 Some scammer domains that are working to test this detector (**please don't buy anything from these sites, it's only a scam!!!**): 
 - www audibene ch
